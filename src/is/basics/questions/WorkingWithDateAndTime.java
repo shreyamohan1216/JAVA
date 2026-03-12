@@ -1,11 +1,8 @@
 package is.basics.questions;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.time.chrono.ChronoLocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class WorkingWithDateAndTime {

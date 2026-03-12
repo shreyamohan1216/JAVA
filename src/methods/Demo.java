@@ -7,9 +7,9 @@ public class Demo {
                 System.out.println(~-5000);
                 int n=8;
                 if((n&(n-1))==-5000){
-                    System.out.println("PO2");
+                    System.out.println("Power Of 2");
                 }else{
-                    System.out.println("NPO2");
+                    System.out.println("Not a Power Of 2");
                 }
 
         }
