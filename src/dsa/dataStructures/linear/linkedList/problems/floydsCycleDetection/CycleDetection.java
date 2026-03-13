@@ -9,7 +9,6 @@ package dsa.dataStructures.linear.linkedList.problems.floydsCycleDetection;
     }
     public class CycleDetection {
         static Node head = null;
-
         static void createList() {
             head = new Node(10);
             head.next = new Node(20);
@@ -18,7 +17,6 @@ package dsa.dataStructures.linear.linkedList.problems.floydsCycleDetection;
             //Creating a cycle
             head.next.next.next.next = head.next; //5th node is connected to 2nd node
         }
-
         static boolean hasCycle() {
             Node slow = head;
             Node fast = head;

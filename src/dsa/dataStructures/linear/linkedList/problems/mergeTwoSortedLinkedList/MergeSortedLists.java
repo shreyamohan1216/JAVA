@@ -2,7 +2,6 @@ package dsa.dataStructures.linear.linkedList.problems.mergeTwoSortedLinkedList;
 class Node {
     int data;
     Node next;
-
     Node(int data) {
         this.data = data;
     }
